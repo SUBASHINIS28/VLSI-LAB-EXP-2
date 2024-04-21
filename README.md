@@ -12,15 +12,25 @@ Spartan6 FPGA
 PROCEDURE:
 
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
-STEP:2  Select the device family, device, package and speed.       
-STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
+
+STEP:2  Select the device family, device, package and speed.      
+
+STEP:3  Select new source in the New Project and select Verilog Module as the Source type.   
+
 STEP:4  Type the File Name and Click Next and then finish button. Type the code and save it.
-STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax.                       
-STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.               
+
+STEP:5  Select the Behavioral Simulation in the Source Window and click the check syntax.   
+
+STEP:6  Click the simulation to simulate the program and  give the inputs and verify the outputs as per the truth table.       
+
 STEP:7  Select the Implementation in the Sources Window and select the required file in the Processes Window.
+
 STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in the  FloorplanArea/IO/Logic-Post Synthesis process in the User Constraints process group. UCF(User constraint File) is obtained. 
+
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
+
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
+
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
 ```
@@ -45,6 +55,7 @@ or(y[0],a[6],a[4],a[2],a[0]);
 endmodule
 ```
 OUTPUT:
+
 ![WhatsApp Image 2024-04-21 at 21 21 28_b42913a1](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-2/assets/153823077/35d4286c-f626-4c62-abdb-81ad3d9f5e44)
 
 **LOGIC DIAGRAM**:
@@ -123,6 +134,7 @@ and(y[7],a,s[2],s[1],s[0]);
 endmodule
 ```
 OUTPUT:
+
 ![WhatsApp Image 2024-04-21 at 21 26 48_88662416](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-2/assets/153823077/79ec6758-b181-4584-8795-662f17e18bdc)
 
 **LOGIC DIAGRAM**:
@@ -160,6 +172,7 @@ end
 endmodule
 ```
 OUTPUT:
+
 ![WhatsApp Image 2024-04-21 at 21 28 15_df5ad9c2](https://github.com/SUBASHINIS28/VLSI-LAB-EXP-2/assets/153823077/2dee19a3-ab4b-4d80-b279-39cedf296cf5)
 
  
